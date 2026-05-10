@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #121212;
+  --color-dark-card: #1e1e1e;
+  --color-primary: #3b82f6;
+}
+
+@layer base {
+  body {
+    @apply bg-[#121212] text-white antialiased selection:bg-blue-500 selection:text-white;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
