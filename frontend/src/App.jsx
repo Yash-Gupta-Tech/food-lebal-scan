@@ -13,7 +13,7 @@ function App() {
     setErrorMsg('');
     
     try {
-      const response = await fetch('http://localhost:3001/api/analyze', {
+      const response = await fetch('https://food-lebal-scan-back.onrender.com/api/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
